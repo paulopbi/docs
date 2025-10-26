@@ -16,7 +16,7 @@ O **Python é uma linguagem de programação de alto nível, interpretada, de pr
 
 ## Git
 
-O Git **é um sistema de controle de versão distribuído que rastreia as alterações em arquivos e coordena o trabalho de várias pessoas em um projeto**. Ele permite que desenvolvedores voltem a versões anteriores, acompanhem quem fez cada mudança, e trabalhem em cópias locais do projeto mesmo offline. Cada vez que uma alteração significativa é salva, é chamado de "commit".
+O Git foi criado por _Linus Torvalds_ e **é um sistema de controle de versão distribuído que rastreia as alterações em arquivos e coordena o trabalho de várias pessoas em um projeto**. Ele permite que desenvolvedores voltem a versões anteriores, acompanhem quem fez cada mudança, e trabalhem em cópias locais do projeto mesmo offline. Cada vez que uma alteração significativa é salva, é chamado de "commit".
 
 - [Configurações](git/configuracoes.md)
 
