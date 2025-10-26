@@ -1,4 +1,20 @@
-Repositório que contém diversos conteúdos de programação.
+```plaintext
+
+ ____
+|  _ \  ___   ___ ___
+| | | |/ _ \ / __/ __|
+| |_| | (_) | (__\__ \\
+|____/ \___/ \___|___/
+
+```
+
+Este repositório reúne **anotações, estudos e materiais de referência sobre programação e tecnologia**, organizados em formato **Markdown** para fácil leitura e versionamento.
+
+O objetivo é **centralizar e documentar o aprendizado contínuo** em diferentes áreas da programação — desde fundamentos e linguagens até ferramentas e sistemas — permitindo consultas rápidas, revisões e compartilhamento de conhecimento.
+
+Cada diretório representa um tema específico (como _Python_, _Git_ ou _Linux_), contendo arquivos independentes que abordam conceitos, comandos e exemplos práticos.
+
+Dessa forma, este repositório funciona como uma **base pessoal de estudos**, mas também pode servir de apoio para outros desenvolvedores que desejem revisar conteúdos de forma clara e estruturada.
 
 ## Conteúdo
 
@@ -16,16 +32,16 @@ O **Python é uma linguagem de programação de alto nível, interpretada, de pr
 
 ## Git
 
-O Git foi criado por _Linus Torvalds_ e **é um sistema de controle de versão distribuído que rastreia as alterações em arquivos e coordena o trabalho de várias pessoas em um projeto**. Ele permite que desenvolvedores voltem a versões anteriores, acompanhem quem fez cada mudança, e trabalhem em cópias locais do projeto mesmo offline. Cada vez que uma alteração significativa é salva, é chamado de "commit".
+O Git foi criado por _Linus Torvalds_ e **é um sistema de controle de versão distribuído que rastreia as alterações em arquivos e coordena o trabalho de várias pessoas em um projeto**. Ele permite que desenvolvedores voltem a versões anteriores, acompanhem quem fez cada mudança e trabalhem em cópias locais do projeto mesmo offline.
 
-- [Configurações](git/configuracoes.md)
+- [Configurações](./git/configuracoes.md)
 
 ## Linux
 
 **O Linux é um sistema operacional de código aberto e gratuito**, cujo núcleo (kernel) foi criado por _Linus Torvalds_ em 1991 como uma alternativa semelhante ao _Unix_. **O termo "Linux" refere-se tecnicamente apenas ao kernel**, mas comumente designa todo o sistema operacional formado pelo kernel combinado com ferramentas, bibliotecas e utilitários, principalmente do projeto _GNU_, o que torna mais preciso o nome _GNU/Linux_.
 
-- [Gerenciador De Pacotes](linux/gerenciador-de-pacotes.md)
+- [Gerenciador de Pacotes](./linux/gerenciador-de-pacotes.md)
 
 ## Licença
 
-Este projeto está sobre a **licença MIT**, você é livre para compartilhar, modificar ou adicionar coisas [clique aqui para saber mais](./LICENSE).
+Este projeto está sob a **licença MIT** — você é livre para compartilhar, modificar ou adicionar novos conteúdos [leia mais sobre a licença aqui](./LICENSE).
