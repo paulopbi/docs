@@ -2,8 +2,17 @@ Repositório que contém diversos conteúdos de programação.
 
 ## Conteúdo
 
+- [Python](#Python)
 - [Git](#Git)
 - [Linux](#Linux)
+
+## Python
+
+O **Python é uma linguagem de programação de alto nível, interpretada, de propósito geral e de código aberto**, criada por _Guido van Rossum_ e lançada em 1991. Destaca-se pela sintaxe simples e legível, semelhante ao inglês, o que facilita o aprendizado e a escrita de código. **É amplamente usada em áreas como desenvolvimento web, ciência de dados, inteligência artificial, machine learning e automação de tarefas**.
+
+- [Entrada e Saída de Dados](./python/entrada-e-saida-de-dados.md)
+- [Variáveis](./python/variaveis.md)
+- [Operadores Matemáticos](./python/operadores-matematicos.md)
 
 ## Git
 
