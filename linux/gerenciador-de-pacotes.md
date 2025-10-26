@@ -20,4 +20,5 @@ sudo pacman -S nome_do_pacote nome_do_outro_pacote
 sudo pacman -R nome_do_pacote
 ```
 
-> [!IMPORTANT] É importante lembrar do comando `sudo` ao utilizar os gerenciadores de pacote, você precisa ser um super usuário para instalar ou remover pacotes.
+> [!NOTE]
+> É importante lembrar do comando `sudo` ao utilizar os gerenciadores de pacote, você precisa ser um super usuário para instalar ou remover pacotes.
