@@ -1,9 +1,7 @@
 ---
-title: Configurações do Git
-description: Anotações sobre as principais configurações do Git, incluindo nome, email e branch padrão.
-author: Paulo Victor
-tags: [git, configuração, terminal]
-difficulty: iniciante
+Title: Configurações do Git
+Author: Paulo Victor
+Description: Anotações das configurações mais importantes do Git
 ---
 
 ## Configuração Inicial
@@ -35,8 +33,4 @@ Se você precisar de ajuda para usar o Git, há três formas de acessar a págin
 # comandos de ajuda
 git help <verbo>
 git <verbo> --help
-man git -<verbo>
-
-# exemplo
-git help config # mostra as opções de config
 ```
