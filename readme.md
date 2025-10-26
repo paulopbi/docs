@@ -22,7 +22,7 @@ O Git foi criado por _Linus Torvalds_ e **é um sistema de controle de versão d
 
 ## Linux
 
-**O Linux é um sistema operacional de código aberto e gratuito, cujo núcleo (kernel) foi criado por Linus Torvalds em 1991** como uma alternativa semelhante ao _Unix_. **O termo "Linux" refere-se tecnicamente apenas ao kernel**, mas comumente designa todo o sistema operacional formado pelo kernel combinado com ferramentas, bibliotecas e utilitários, principalmente do projeto _GNU_, o que torna mais preciso o nome _GNU/Linux_.
+**O Linux é um sistema operacional de código aberto e gratuito**, cujo núcleo (kernel) foi criado por _Linus Torvalds_ em 1991 como uma alternativa semelhante ao _Unix_. **O termo "Linux" refere-se tecnicamente apenas ao kernel**, mas comumente designa todo o sistema operacional formado pelo kernel combinado com ferramentas, bibliotecas e utilitários, principalmente do projeto _GNU_, o que torna mais preciso o nome _GNU/Linux_.
 
 - [Gerenciador De Pacotes](linux/gerenciador-de-pacotes.md)
 
