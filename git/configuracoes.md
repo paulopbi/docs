@@ -1,9 +1,3 @@
----
-Title: Configurações do Git
-Author: Paulo Victor
-Description: Anotações das configurações mais importantes do Git
----
-
 ## Configuração Inicial
 
 Depois de fazer a instalação do #git é importante fazer as configurações iniciais como definir nome de usuário, email, ao configurar o nome e email estaremos informando o git qual é o usuário que está fazendo o commit:
