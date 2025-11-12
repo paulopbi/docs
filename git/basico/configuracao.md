@@ -9,7 +9,8 @@ git config --global user.email paulovictor@email.com # configura o email
 git config --list # irá exibir todas as configurações do git
 ```
 
-> [!NOTE] Essa configuração de email e usuário é feita apenas uma vez!
+> [!NOTE]
+> Essa configuração de email e usuário é feita apenas uma vez!
 
 ## Configuração de Branch
 
