@@ -18,10 +18,15 @@ Uma **função em JavaScript é um bloco de código que executa uma tarefa espec
 
 ## Function Declaration
 
-Uma function declaration no JavaScript é uma maneira de criar uma função usando a palavra-chave `function`, seguida por um nome de função, uma grande vantagem é que elas são elevadas (hoisted), o que significa que podem ser chamadas antes de sua definição no código.
+Uma **function declaration** é uma forma tradicional de criar funções em JavaScript, usando a palavra-chave `function` seguida pelo nome da função.
+
+A grande vantagem é que **elas são içadas (hoisted)**, ou seja, podem ser chamadas **antes** de serem declaradas no código.
 
 ```js
-//cria a function declaration
+//chamando a função 'areaQuadrado' antes da sua definição
+areaQuadrado(4) //retorno: 16
+
+//cria a definição da function declaration
 function areaQuadrado(lado) {
   return lado * lado
 }
@@ -29,12 +34,34 @@ function areaQuadrado(lado) {
 
 ## Arrow Function
 
-A arrow function (função de seta) é um jeito mais moderno e curto de escrever uma função, podemos atribuir o retorno da função em uma variável, e para utilizar basta remover a palavra chave `function` e adicionar a fat arrow `=>` após os argumentos.
+A **arrow function** (função de seta) é uma forma mais moderna e curta de escrever funções, ela é definida usando o operador `=>` e geralmente atribuída a uma variável.
 
 ```js
+//a mesma função mas utilizando arrow function
 const areaQuadrado = (lado) => {
   return lado * lado
 }
+
+areaQuadrado(4) //retorno: 16
+```
+
+> [!IMPORTANT]
+> Diferente das _function declarations_, as _arrow functions_ não são içadas (hoisted), portanto, a chamada da função deve sempre vir abaixo da sua definição, ou ocorrerá um erro.
+
+## Execução de uma função
+
+Definir uma função não é o mesmo que executá-la, **nada dentro dela será executado até que ela seja chamada**, ou seja, até que tenha parênteses após o nome.
+
+```js
+const exibirNome = (nome) => {
+  console.log(nome)
+}
+
+/*
+A função 'exibirNome' está sendo executada porque
+possui parênteses após o nome.
+*/
+exibirNome('Paulo')
 ```
 
 ## Argumentos e Parâmetros
@@ -42,46 +69,27 @@ const areaQuadrado = (lado) => {
 - **Argumentos:** Ao executar uma função, você pode passar argumentos, `somar(5, 3)`, `5` e `3` são os argumentos.
 - **Parâmetros:** Ao criar uma função podemos definir os parâmetros `function somar(a, b)`, `a` e `b` são parâmetros.
 
-## Function.length
+## Retorno de Valores
 
-`Function.length` retorna o total de argumentos da função. Function.name retorna uma string com o nome da função.
+Se uma função não tiver `return`, ela retornará automaticamente `undefined`.
+Mesmo assim, o código dentro dela será executado normalmente.
 
-```js
-function somar(n1, n2) {
-  return n1 + n2
-}
-
-somar.length // 2
-somar.name // 'somar'
-```
-
-## Function.call()
-
-`function.call(this, arg1, arg2, ...)` executa a função, sendo possível passarmos uma nova referência ao this da mesma, mas é importante lembrar que se a função for uma arrow function não irá funcionar, ela precisa ser uma function declaration.
+Quando usamos `return`, o valor pode ser armazenado em uma variável ou exibido no console.
 
 ```js
-const person = {
-  name: 'Paulo Victor',
-  age: 26,
+const semRetorno = () => {
+  console.log('Não retorna nenhum dado')
 }
 
-function showInformation() {
-  console.log(`O nome é ${this.name} e tem ${this.age} anos.`)
+semRetorno() // retorno: undefined
+
+const comRetorno = () => {
+  return 'Retorna essa string'
 }
 
-showInformation.call(person)
+comRetorno() // retorno: 'Retorna essa string'
 ```
 
-## Function.apply()
+## Métodos e Atributos de Funções
 
-O `apply(this, [arg1, arg2, ...])` funciona como o call, a única diferença é que os argumentos da função são passados através de uma array.
-
-```js
-const numeros = [3, 4, 6, 1, 34, 44, 32]
-Math.max.apply(null, numeros)
-Math.max.call(null, 3, 4, 5, 6, 7, 20)
-
-// Podemos passar null para o valor
-// de this, caso a função não utilize
-// o objeto principal para funcionar
-```
+Podemos ver alguns métodos e atributos disponíveis no construtor de uma função [clicando aqui](./metodos-de-funcoes.md)
