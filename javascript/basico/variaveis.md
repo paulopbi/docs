@@ -44,3 +44,8 @@ let nome = "Paulo
 - Os nomes podem conter números mas não iniciar com eles.
 - O padrão mais usado no JavaScript é o _camelCase_ `nomeCompleto`, `idadeDoUsuario`, `totalDePontos`.
 - Variáveis são case sensitive, _nome_ é diferente de _Nome_ e também diferente de _NOME_.
+
+## Leitura Complementar
+
+- [Escopo](./escopo.md)
+- [Hoisting](./hoisting.md)

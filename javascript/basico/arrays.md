@@ -46,7 +46,6 @@ newArray[1] = 'Modificado'
 > [!WARNING]
 > O array precisa ser declarado com `let` para permitir modificações, se for declarado com `const`, o JavaScript impedirá a reatribuição de valores.
 
-## Métodos de Array
+## Leitura Complementar
 
-Aprender a manipular arrays é algo muito importante, e o JavaScript oferece diversos métodos nativos para isso.
-Você pode conferir mais sobre esses métodos [clicando aqui](./metodos-arrays.md).
+- [Métodos de Array](./metodos-arrays.md)
