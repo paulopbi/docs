@@ -13,4 +13,5 @@ O **JavaScript é uma linguagem de programação de alto nível, dinâmica e int
 
 ### Intermediário
 
-- [Métodos De Arrays](./basico/metodos-arrays.md)
+- [Métodos De Arrays](./intermediario/metodos-arrays.md)
+  - [Array.map()](./intermediario/array.map.md)
