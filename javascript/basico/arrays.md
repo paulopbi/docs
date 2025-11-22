@@ -48,4 +48,4 @@ newArray[1] = 'Modificado'
 
 ## Leitura Complementar
 
-- [Métodos de Array](./metodos-arrays.md)
+- Verificar o arquivo de métodos de array [no index](../javascript.md) da documentação.
