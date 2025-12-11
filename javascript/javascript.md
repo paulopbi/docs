@@ -8,6 +8,7 @@ O **JavaScript é uma linguagem de programação de alto nível, dinâmica e int
 
 - [Tipos Primitivos](./basico/tipos-primitivos.md)
 - [Variáveis](./basico/variaveis.md)
+- [Estrutura De Controle](./basico/estrutura-de-controle.md)
 - [Estrutura De Repetição](./basico/estrutura-de-repeticao.md)
 - [Funções](./basico/funcoes.md)
 - [Escopo](./basico/escopo.md)
