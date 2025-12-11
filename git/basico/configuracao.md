@@ -1,6 +1,6 @@
 ## Configuração Inicial
 
-Depois de fazer a instalação do #git é importante fazer as configurações iniciais como definir nome de usuário, email, ao configurar o nome e email estaremos informando o git qual é o usuário que está fazendo o commit:
+Depois de fazer a instalação do git é importante fazer as configurações iniciais como definir nome de usuário, email, ao configurar o nome e email estaremos informando o git qual é o usuário que está fazendo o commit:
 
 ```bash
 git config --global user.name "Paulo Victor" # configura o nome
@@ -14,10 +14,10 @@ git config --list # irá exibir todas as configurações do git
 
 ## Configuração de Branch
 
-Podemos configurar a branch padrão do #git, isso irá evitar conflitos ou nomes de branch desatualizados, o padrão do git é o _"master"_ porém essa nomeação de branch é antiga, as branch's atuais são chamadas de _"main"_, dito isso, podemos configurar com o seguinte comando:
+Podemos configurar a branch padrão do git, isso irá evitar conflitos ou nomes de branch desatualizados, o padrão do git é o _"master"_ porém essa nomeação de branch é antiga, as branch's atuais são chamadas de _"main"_, dito isso, podemos configurar com o seguinte comando:
 
 ```bash
-git config --global init.defaultBranch <name>
+git config --global init.defaultBranch <nome-da-branch>
 ```
 
 ## Ajuda
