@@ -45,7 +45,3 @@ newArray[1] = 'Modificado'
 
 > [!WARNING]
 > O array precisa ser declarado com `let` para permitir modificações, se for declarado com `const`, o JavaScript impedirá a reatribuição de valores.
-
-## Leitura Complementar
-
-- Verificar o arquivo de métodos de array [no index](../javascript.md) da documentação.
