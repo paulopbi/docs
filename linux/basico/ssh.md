@@ -32,8 +32,6 @@ ssh-keygen -t ed25519 -C "seu-email@exemplo.com"
 > 
 > Caso vá utilizar essa chave no github, é importante que seja um email cadastrado no github.
 
-
-
 Após isso, serão criado alguns arquivos no diretório `~/.ssh/`, a estrutura criada será a seguinte:
 
 ```textile
@@ -52,5 +50,3 @@ eval "$(ssh-agent -s)"
 ```
 
 Depois desses passos, a chave foi criada com sucesso. SSH Keys são uma habilidade **essencial** para qualquer desenvolvedor ou administrador de sistemas.
-
-
