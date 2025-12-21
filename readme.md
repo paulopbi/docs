@@ -14,7 +14,6 @@ Dessa forma, este repositório funciona como uma **base pessoal de estudos**, ma
 - [Python](./python/python.md)
 - [Git](./git/git.md)
 - [Linux](./linux/linux.md)
-- [Licença](#licença)
 
 ## Licença
 
