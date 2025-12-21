@@ -6,5 +6,8 @@
 
 ### Básico
 
+- [Diretório Templates](./basico/diretorio-templates.md)
+
 - [Gerenciador De Pacotes](./basico/gerenciador-de-pacotes.md)
+
 - [SSH](./basico/ssh.md)
